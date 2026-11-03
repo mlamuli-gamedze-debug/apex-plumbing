@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apex Plumbing & Electrical Services</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased">
+
+  <!-- Header / Navigation -->
+  <header class="border-b border-gray-800 bg-gray-900/90 sticky top-0 z-50 backdrop-blur-sm">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+        <span class="text-blue-500">⚡</span> Apex Trade Services
+      </div>
+      <!-- Direct Phone Call CTA -->
+      <a href="tel:+26878322869" class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg font-medium text-sm transition">
+        📞 Call Now
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <span class="text-blue-400 font-semibold text-sm tracking-wider uppercase">24/7 Emergency Repairs</span>
+      <h1 class="text-4xl md:text-5xl font-extrabold text-white mt-2 leading-tight">
+        Reliable Plumbing & Electrical Solutions
+      </h1>
+      <p class="text-gray-400 text-lg mt-4">
+        Licensed experts serving residential and commercial clients. Rapid response times and guaranteed workmanship.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-4">
+        <a href="#contact" class="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold transition">
+          Get a Free Quote
+        </a>
+        <a href="#services" class="border border-gray-700 hover:border-gray-500 text-gray-300 px-6 py-3 rounded-lg font-semibold transition">
+          View Services
+        </a>
+      </div>
+    </div>
+    
+    <!-- Hero Service Highlight Card -->
+    <div class="bg-gray-800/60 border border-gray-700 p-8 rounded-2xl shadow-xl">
+      <h3 class="text-xl font-bold text-white mb-4">Why Choose Apex?</h3>
+      <ul class="space-y-4 text-gray-300">
+        <li class="flex items-center gap-3">
+          <span class="text-green-400 font-bold">✓</span> Fast 30-Minute Emergency Response
+        </li>
+        <li class="flex items-center gap-3">
+          <span class="text-green-400 font-bold">✓</span> Certified & Fully Insured Technicians
+        </li>
+        <li class="flex items-center gap-3">
+          <span class="text-green-400 font-bold">✓</span> Transparent Pricing — No Hidden Fees
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Services Grid -->
+  <section id="services" class="border-t border-gray-800 bg-gray-950 py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-white text-center mb-12">Our Specialized Services</h2>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Service 1 -->
+        <div class="bg-gray-900 border border-gray-800 p-6 rounded-xl hover:border-gray-700 transition">
+          <div class="text-3xl mb-4">🔧</div>
+          <h3 class="text-xl font-semibold text-white mb-2">Emergency Plumbing</h3>
+          <p class="text-gray-400 text-sm">Burst pipes, drain unblocking, leak detection, and high-pressure jetting.</p>
+        </div>
+        <!-- Service 2 -->
+        <div class="bg-gray-900 border border-gray-800 p-6 rounded-xl hover:border-gray-700 transition">
+          <div class="text-3xl mb-4">⚡</div>
+          <h3 class="text-xl font-semibold text-white mb-2">Electrical Repairs</h3>
+          <p class="text-gray-400 text-sm">DB board upgrades, wiring troubleshooting, lighting, and surge protection.</p>
+        </div>
+        <!-- Service 3 -->
+        <div class="bg-gray-900 border border-gray-800 p-6 rounded-xl hover:border-gray-700 transition">
+          <div class="text-3xl mb-4">☀️</div>
+          <h3 class="text-xl font-semibold text-white mb-2">Solar & Inverters</h3>
+          <p class="text-gray-400 text-sm">Backup power integration, inverter sizing, and solar PV maintenance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact" class="max-w-3xl mx-auto px-4 py-16">
+    <div class="bg-gray-800/40 border border-gray-700 p-8 rounded-2xl">
+      <h2 class="text-2xl font-bold text-white mb-2">Request a Callback</h2>
+      <p class="text-gray-400 text-sm mb-6">Fill out the form below and an engineer will contact you shortly.</p>
+
+      <!-- Web3Forms Serverless Form Integration -->
+      <form action="https://api.web3forms.com/submit" method="POST" class="space-y-4">
+        <!-- YOUR ACCESS KEY GOES HERE -->
+        <input type="hidden" name="access_key" value="bc4df15c-375b-4923-8c97-07dabc4b84a9">
+        <input type="hidden" name="subject" value="New Quote Request from Apex Website">
+
+        <div>
+          <label class="block text-sm font-medium text-gray-300 mb-1">Full Name</label>
+          <input type="text" name="name" required class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-2.5 text-white focus:outline-none focus:border-blue-500" placeholder="e.g. Sipho Dlamini" />
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-300 mb-1">Phone Number</label>
+          <input type="tel" name="phone" required class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-2.5 text-white focus:outline-none focus:border-blue-500" placeholder="e.g. +268 7600 0000" />
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-300 mb-1">Service Required</label>
+          <select name="service" class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-2.5 text-white focus:outline-none focus:border-blue-500">
+            <option value="Plumbing">Plumbing Emergency</option>
+            <option value="Electrical">Electrical Issue</option>
+            <option value="Solar">Solar / Inverter Setup</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-300 mb-1">Details</label>
+          <textarea name="message" rows="3" class="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-2.5 text-white focus:outline-none focus:border-blue-500" placeholder="Briefly describe your issue..."></textarea>
+        </div>
+
+        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 rounded-lg transition">
+          Submit Quote Request
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="border-t border-gray-800 text-center py-6 text-gray-500 text-sm">
+    © 2026 Apex Trade Services. All rights reserved.
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
